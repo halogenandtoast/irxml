@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Matt Mongeau"]
   s.date = %q{2010-03-10}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{Gem for handling IRXML's API}
   s.email = %q{matt@toastyapps.com}
   s.extra_rdoc_files = [
     "LICENSE",
@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "irxml.gemspec",
      "lib/irxml.rb",
      "lib/irxml/edgar.rb",
      "lib/irxml/stock.rb",
@@ -40,7 +41,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.5}
-  s.summary = %q{TODO: one-line summary of your gem}
+  s.summary = %q{Gem for handling IRXML's API}
   s.test_files = [
     "test/helper.rb",
      "test/test_irxml_edgar_document.rb",
