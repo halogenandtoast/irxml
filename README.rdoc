@@ -1,6 +1,12 @@
 = irxml
 
-Description goes here.
+Ruby wrapper for IRXML
+
+== Installation
+<code>gem install irxml</code>
+
+== Configuration
+IRXML.config = {:company_id => YOUR_COMPANY_ID, :pin => YOUR_PIN}
 
 == Note on Patches/Pull Requests
  
@@ -14,4 +20,4 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2010 Matt Matt san Mongeau. See LICENSE for details.
+Copyright (c) 2010 Matt Mongeau. See LICENSE for details.
